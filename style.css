@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+@keyframes bounce{
+    0% { font-size: 0px; }
+    100% { font-size: 200px; }
+  }
+.smol {
+    animation: alternate-reverse;
+    color: crimson;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* filter:blur(2px); */
+}
